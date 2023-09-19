@@ -11,7 +11,7 @@ WORKDIR /app
 #    git \
 #    && rm -rf /var/lib/apt/lists/*
 
-#RUN git clone https://github.com/oschakoory/mptb.git .
+#RUN git clone https://github.com/oschakoory/deepmnec.git .
 
 COPY . .
 
