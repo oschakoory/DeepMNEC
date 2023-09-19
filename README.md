@@ -1,4 +1,3 @@
-# DeepMNEC
 <img align="right" src="datas/logo.png" width="150" alt="DeepMPTB logo"/>
 
 # DeepMNEC
