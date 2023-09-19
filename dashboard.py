@@ -68,7 +68,7 @@ div.st-cs.st-c5.st-bc.st-ct.st-cu:before {content: "Sélectionner l'information 
 ########################################################################################################################################
 
 # load logo
-logo = Image.open('datas/logo_NEC.png')
+logo = Image.open('datas/logo.png')
 
 set_background()
 
@@ -76,7 +76,7 @@ col1, mid, col2 = st.columns([2, 2, 8])
 with mid:
     st.image(logo)
 with col2:
-    st.markdown("<h1 style='color: #ca7ebf;'>DeepMNEC</h1>",
+    st.markdown("<h1 style='color: #ca7ebf;'>DeepMPTB</h1>",
                 unsafe_allow_html=True)
 
 # Loading data....
