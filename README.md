@@ -2,7 +2,7 @@
 
 # DeepMNEC
 ![GitHub](https://img.shields.io/github/license/oschakoory/RiboTaxa)
-![GitHub](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Foschakoory%2FDeepMPTB&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=true)
+![GitHub](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Foschakoory%2FDeepMNEC&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=true)
 
 DeepMPTB can directly be accessed here: https://deepmptb.streamlit.app/
 
