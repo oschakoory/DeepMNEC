@@ -33,7 +33,7 @@ def set_background():
     background-size: cover;
     }
     .css-b7s55g{
-        background: #C1E1C1;
+        background: #ca7ebf;
     }
 
     .css-1yjuwjr{
@@ -44,7 +44,7 @@ def set_background():
 
     .st-au {
     background-color: #ca7ebf;
-    color: #f3f9fd;
+    color: #ca7ebf;
     text-align: center;
 
     .main-svg{
