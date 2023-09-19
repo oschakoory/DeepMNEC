@@ -43,7 +43,7 @@ def set_background():
     }
 
     .st-au {
-    background-color: #ca7ebf;
+    background-color: #C1E1C1;
     color: #f3f9fd;
     text-align: center;
 
