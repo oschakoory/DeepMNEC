@@ -48,7 +48,7 @@ def set_background():
     text-align: center;
 
     .main-svg{
-        background-color: #11ffee00 !important;
+        background-color: #C1E1C1 !important;
     }
 
     </style>
