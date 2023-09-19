@@ -28,7 +28,7 @@ def set_background():
     <style>
     .stApp {
     background-image: url("data:image/png;base64,%s");
-    background-color: #fffff;
+    background-color: #ffffff;
     background-blend-mode: lighten;
     background-size: cover;
     }
@@ -48,7 +48,7 @@ def set_background():
     text-align: center;
 
     .main-svg{
-        background-color: #C1E1C1 !important;
+        background-color: #11ffee00 !important;
     }
 
     </style>
