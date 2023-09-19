@@ -43,7 +43,7 @@ def set_background():
     }
 
     .st-au {
-    background-color: #C1E1C1;
+    background-color: #AFE1AF;
     color: #f3f9fd;
     text-align: center;
 
@@ -76,7 +76,7 @@ col1, mid, col2 = st.columns([2, 2, 8])
 with mid:
     st.image(logo)
 with col2:
-    st.markdown("<h1 style='color: #C1E1C1;'>DeepMNEC</h1>",
+    st.markdown("<h1 style='color: #AFE1AF;'>DeepMNEC</h1>",
                 unsafe_allow_html=True)
 
 # Loading data....
