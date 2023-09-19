@@ -28,7 +28,7 @@ def set_background():
     <style>
     .stApp {
     background-image: url("data:image/png;base64,%s");
-    background-color: #ffffff;
+    background-color: #C1E1C1;
     background-blend-mode: lighten;
     background-size: cover;
     }
