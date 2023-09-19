@@ -28,12 +28,12 @@ def set_background():
     <style>
     .stApp {
     background-image: url("data:image/png;base64,%s");
-    background-color: #C1E1C1;
+    background-color: #fffff;
     background-blend-mode: lighten;
     background-size: cover;
     }
     .css-b7s55g{
-        background: #ca7ebf;
+        background: #C1E1C1;
     }
 
     .css-1yjuwjr{
