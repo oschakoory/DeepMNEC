@@ -68,7 +68,7 @@ div.st-cs.st-c5.st-bc.st-ct.st-cu:before {content: "Sélectionner l'information 
 ########################################################################################################################################
 
 # load logo
-logo = Image.open('datas/logo.png')
+logo = Image.open('datas/logo_NEC.png')
 
 set_background()
 
