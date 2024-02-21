@@ -33,7 +33,7 @@ def set_background():
     background-size: cover;
     }
     .css-b7s55g{
-        background: #ca7ebf;
+        background: #236099;
     }
 
     .css-1yjuwjr{
