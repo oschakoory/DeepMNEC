@@ -1,4 +1,4 @@
-<img align="right" src="datas/logo_NEC.png" width="150" alt="DeepMPTB logo"/>
+<img align="right" src="datas/logo_NEC.png" width="200" alt="DeepMPTB logo"/>
 
 # DeepMNEC
 ![GitHub](https://img.shields.io/github/license/oschakoory/RiboTaxa)
