@@ -33,7 +33,7 @@ def set_background():
     background-size: cover;
     }
     .css-b7s55g{
-        background: #236099;
+        background: #ca7ebf;
     }
 
     .css-1yjuwjr{
@@ -72,11 +72,11 @@ logo = Image.open('datas/logo_NEC.png')
 
 set_background()
 
-col1, mid, col2 = st.columns([2, 2, 8])
+col1, mid, col2 = st.columns([2, 4, 8])
 with mid:
     st.image(logo)
 with col2:
-    st.markdown("<h1 style='color: #c8e0d7;'>DeepMNEC</h1>",
+    st.markdown("<h1 style='color: #236099;'>DeepMNEC</h1>",
                 unsafe_allow_html=True)
 
 # Loading data....
