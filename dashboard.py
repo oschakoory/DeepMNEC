@@ -214,14 +214,14 @@ def my_prediction(unknown, new_samp):
     sample = test_sample_t.to_numpy()
     y_pred = loaded_model.predict(sample)
     probabilities = softmax(y_pred, axis=1)
-    probs = probabilities.max(1)
+    probs = y_pred.max(1)
     prediction = np.argmax(loaded_model.predict(sample), axis=-1)
 
     prediction_ = np.argmax(to_categorical(prediction), axis=1)
     prediction_ = encoder.inverse_transform(prediction_)
 
     st.info(
-        f"The predicted phenotype of {unknown} is {prediction_[0]}")
+        f"The predicted phenotype of {unknown} is {prediction_[0]} with a probability distribution of {probs}")
 
     # -------------------------------------------------------------------------
 
