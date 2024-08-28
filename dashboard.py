@@ -221,7 +221,7 @@ def my_prediction(unknown, new_samp):
     prediction_ = encoder.inverse_transform(prediction_)
 
     st.info(
-        f"The predicted phenotype of {unknown} is {prediction_[0]} with a probability distribution of {probs}")
+        f"The predicted phenotype of {unknown} is {prediction_[0]}")
 
     # -------------------------------------------------------------------------
 
