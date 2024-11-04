@@ -158,7 +158,7 @@ cbx_proba = st.sidebar.button('Predict')
 loaded_model = tf.keras.models.load_model('models/best-model_2pub.h5')
 loaded_model.summary()
 
-y = ['Control', 'NEC']
+y = ['No', 'Yes']
 encoder = LabelEncoder()
 encoder.fit(y)
         
@@ -221,7 +221,7 @@ def my_prediction(unknown, new_samp):
     prediction_ = encoder.inverse_transform(prediction_)
 
     st.info(
-        f"The predicted phenotype of {unknown} is {prediction_[0]}")
+        f"Risk of NEC for {unknown} is {prediction_[0]}")
 
     # -------------------------------------------------------------------------
 
