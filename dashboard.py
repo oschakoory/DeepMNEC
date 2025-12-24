@@ -244,7 +244,7 @@ def my_prediction(unknown, new_samp):
                     #plot_type="bar", show=False))
     
     st_shap(waterfall(Explanation(shap_values[1][0],
-        explainer.expected_value[1], 
+        explainer.expected_value[0], 
         data=test_sample_t.iloc[0], 
         feature_names=test_sample_t.columns)))
 
