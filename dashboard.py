@@ -251,10 +251,10 @@ def my_prediction(unknown, new_samp):
 if uploaded_file is not None:
     new_samp = pd.read_csv(uploaded_file, sep='\t')
 
-    st.info(uploaded_file.name.split('_')[0])
+    st.info(uploaded_file.name.split('_')[1])
 
     st.write(new_samp)
 
 if cbx_proba:
 
-    my_prediction(uploaded_file.name.split('_')[0], new_samp)
+    my_prediction(uploaded_file.name.split('_')[1], new_samp)
