@@ -244,17 +244,17 @@ def my_prediction(unknown, new_samp):
                     #plot_type="bar", show=False))
     
     st_shap(waterfall(Explanation(shap_values[0][1],
-        explainer.expected_value[1], 
-        data=test_sample_t.iloc[0], 
+        explainer.expected_value[0], 
+        data=test_sample_t.iloc[1], 
         feature_names=test_sample_t.columns)))
 
 if uploaded_file is not None:
     new_samp = pd.read_csv(uploaded_file, sep='\t')
 
-    st.info(uploaded_file.name.split('_')[1])
+    st.info(uploaded_file.name.split('_')[0])
 
     st.write(new_samp)
 
 if cbx_proba:
 
-    my_prediction(uploaded_file.name.split('_')[1], new_samp)
+    my_prediction(uploaded_file.name.split('_')[0], new_samp)
