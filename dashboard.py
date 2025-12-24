@@ -243,7 +243,7 @@ def my_prediction(unknown, new_samp):
                     #feature_names=test_sample_t.columns,
                     #plot_type="bar", show=False))
     
-    st_shap(waterfall(Explanation(shap_values[1][0], 
+    st_shap(waterfall(Explanation(shap_values[0][1],
         explainer.expected_value[1], 
         data=test_sample_t.iloc[0], 
         feature_names=test_sample_t.columns)))
